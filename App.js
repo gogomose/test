@@ -2,9 +2,14 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+
+  console.warn ('Hello')
+  
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>This is React Class 101</Text>
+      <Text>This will be the Second line</Text>
       <StatusBar style="auto" />
     </View>
   );
